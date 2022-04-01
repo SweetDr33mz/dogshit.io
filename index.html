@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial- scale=1.0">
+    <title>This site's the shit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9214368c0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="video.html"><img src="images/dogshitlogo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="like.html">LIKE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Mike's Dogshit Website</h1>
+            <p>Welcome to my first website. I'm using HTML, CSS, JavaScript, and Photoshop to create this dogshit.</p>
+            <a href="poop.html" class="hero-btn">POOP</a>
+        </div>
+    </section>
+
+    <!---- Like ----->
+
+    <section class="like">
+        <h1>How Do You Like My Site?</h1>
+        <p>Making it this interactive didn't take long at all. (Heavy Sarcasm)</p>
+        
+        <div class="row">
+            <div class ="like-col">
+                <h3>Much Cool!</h3>
+                <p>Some words</p>
+            </div>
+            <div class ="like-col">
+                <h3>Very Wow!</h3>
+                <p>Other words</p>
+            </div>
+            <div class ="like-col">
+                <h3>Such Intradesting!</h3>
+                <p>And a few more words</p>
+            </div>
+        </div>
+    </section>
+
+    <!---- Pics ----->
+
+    <section class="pics">
+        <h1>Here's A Few Pics</h1>
+        <p>Again, this didn't take long at all. Bitcoin needs to go back up so I can stop learning this bullshit.</p>
+
+        <div class="row">
+            <div class="pics-col">
+                <img src="images/shit.png">
+                <div class="layer">
+                    <h3>A PIECE OF SHIT</h3>
+                </div>
+            </div>
+            <div class="pics-col">
+                <img src="images/biden.png">
+                <div class="layer">
+                    <h3>ANOTHER PIECE OF SHIT</h3>
+                </div>
+            </div>
+            <div class="pics-col">
+                <img src="images/nft.png">
+                <div class="layer">
+                    <h3>MY DICKBUTT</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---- Testimonials ----->
+
+    <section class="testimonials">
+        <h1>Testimonials</h1>
+        <p>Here's what others have to say:</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/test1.png">
+                <div>
+                    <p>This is my favorite site. I love it!</p>
+                    <h3>Heywood Jablowme</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/test2.png">
+                <div>
+                    <p>Best stinking site ever!</p>
+                    <h3>Jack Inoff</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---- Call to Action ----->
+
+    <section class="cta">
+        <h1>That's pretty much it</h1>
+        <a href="contact.html" class="hero-btn">DON'T CONTACT ME</a>
+    </section>
+
+    <!---- Footer ----->
+
+    <section class="footer">
+        <h4>Dogshit Inc.</h4>
+        <p>Somebody please kill me</p>
+        <div class="icons">
+            <a href="dox.html">
+            <i class="fa fa-facebook"></i></a>
+            <a href="dox.html">
+            <i class="fa fa-twitter"></i></a>
+            <a href="dox.html">
+            <i class="fa fa-instagram"></i></a>
+            <a href="dox.html">
+            <i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-poo"></i> by Mike</p>
+    </section>
+
+    <!---- JavaScript for Toggle Menu ----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
